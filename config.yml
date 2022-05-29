@@ -1,0 +1,61 @@
+Version: ltb_hlju_1.0
+# 调试模式，用于寻找错误出现的坐标，默认为false
+# 特别提示：调试完成后请记得将debug改为false
+
+debug: false
+
+notifyOption:
+    method: 1
+    qywxOption:
+        corpid: ''
+        corpsecret: ''
+        agentid: ''
+
+users:
+    - user:
+        # 任务类型（收集：0、签到：1）
+        type: 0
+        # username 学号或者工号
+        username: '' #这里填写你的学号
+        # password 密码
+        password: '' #这里填写你的密码，就是教务系统那个密码
+        # address 地址，定位信息
+        address: '黑龙江省哈尔滨市南岗区学府东四道街'
+        notifyOption:
+            method: 1
+            # rcvAcc为接受消息的账号，可以为Email账号、QQ号、或者是企业微信ID(@all为全体)
+            rcvAcc: ''
+        # lon 经度
+        lon: 126.636721
+        # lat 纬度
+        lat: 45.712265
+        abnormalReason: ''
+        # 是否检查表单的标题（1代表检查，0代表不检查）
+        checkTitle: 1
+        forms:
+         - form:
+             title: 在校状态
+             value: 在校（含从学校转至集中隔离宾馆、学府宾馆隔离等情况）
+         - form:
+             ignore: 1      
+         - form:
+             title: 在校学生体温状况
+             value: 正常
+         - form:
+             ignore: 1     
+         - form:
+             ignore: 1                     
+         - form:
+             title: 在校学生隔离情况
+             value: 未隔离
+         - form:
+             ignore: 1
+         - form:
+             ignore: 1
+         - form:
+             ignore: 1     
+         - form:
+             title: 在校学生安全承诺
+             value: 本人承诺当日按时归寝，遵守学校防疫规定，并做到未经审批不私自离校，如有特殊情况主动向辅导员老师报备
+         - form:
+             ignore: 1
