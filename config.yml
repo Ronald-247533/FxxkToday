@@ -38,7 +38,7 @@ users:
              value: 不在校
          - form:
              title: 不在校原因
-             value: 其他(放假)      
+             value: 因病请假      
          - form:
              ignore: 1
          - form:
