@@ -1,7 +1,7 @@
 # FxxkToday
 
-## 丧心病狂的金某教务平台 已经将所有云服务商的IP ban掉了，目前准备搬到路由器(360v6 Ram:1GB)上。开学后开始此项工程。
-
+## 丧心病狂的金某教务平台 已经将所有云服务商的IP ban掉了，目前准备搬到路由器(360v6 Ram:1GB)上。~~开学后开始此项工程。~~[现已完成
+](https://github.com/Ronald-247533/Fxck-CPdaily-docker)
 ### 该项目来自于[CarltonHere/auto-cpdaily](https://github.com/CarltonHere/auto-cpdaily)仓库，经过修改+精简后适配了HLJU今日校园自动打卡。感谢大佬贡献，欢迎给大佬点点STAR！
 
 ### 以下说明借用了部分该作者的原话。
