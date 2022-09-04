@@ -36,27 +36,12 @@ class wiseLoginService:
 
     # 借助api获取学校的登陆url
     def getLoginUrl(self):
-        params = {'ids': 'hlju'}
-        data = self.session.get(
-            'https://mobile.campushoy.com/v6/config/guest/tenant/info',
-            params=params,
-            verify=False,
-        ).json()['data'][0]
-        joinType = data['joinType']
-        ampUrl = data['ampUrl']
-        ampUrl2 = data['ampUrl2']
-        if 'campusphere' in ampUrl:
-            clientUrl = ampUrl
-        elif 'campusphere' in ampUrl2:
-            clientUrl = ampUrl2
-        else:
-            raise Exception('未找到客户端登录地址')
+        clientUrl = "https://hlju.campusphere.net/wec-portal-mobile/client"
         res = self.session.get(clientUrl, verify=False)
-        self.campus_host = re.findall('\w{4,5}\:\/\/.*?\/',
-                                      clientUrl)[0]
         self.login_url = res.url
-        self.login_host = re.findall('\w{4,5}\:\/\/.*?\/', res.url)[0]
-        self.login_type = joinType
+        self.campus_host = "https://hlju.campusphere.net/"
+        self.login_host = "https://hlju.campusphere.net/"
+        self.login_type = "NOTCLOUD"
 
     # 本地化登陆
     def login(self):

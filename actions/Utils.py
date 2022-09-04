@@ -6,11 +6,6 @@ import sys
 import yaml
 from io import BytesIO
 from Crypto.Cipher import AES
-from tencentcloud.common import credential
-from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
-from tencentcloud.common.profile.client_profile import ClientProfile
-from tencentcloud.common.profile.http_profile import HttpProfile
-from tencentcloud.ocr.v20181119 import ocr_client, models
 from datetime import datetime, timedelta, timezone
 import os
 from pyDes import des, CBC, PAD_PKCS5
@@ -170,14 +165,14 @@ class Utils:
                 'wec-counselor-collector-apps/stu/collector/detailCollector',
                 'wec-counselor-collector-apps/stu/collector/getFormFields',
                 'wec-counselor-collector-apps/stu/collector/submitForm',
-                'wec-counselor-collector-apps/stu/oss/getUploadPolicy',
+                'wec-counselor-collector-apps/stu/obs/getUploadPolicy',
                 'wec-counselor-collector-apps/stu/collector/previewAttachment'
             ],
             [
                 'wec-counselor-sign-apps/stu/sign/getStuSignInfosInOneDay',
                 'wec-counselor-sign-apps/stu/sign/detailSignInstance',
                 'wec-counselor-sign-apps/stu/sign/submitSign',
-                'wec-counselor-sign-apps/stu/oss/getUploadPolicy',
+                'wec-counselor-sign-apps/stu/obs/getUploadPolicy',
                 'wec-counselor-sign-apps/stu/sign/previewAttachment'
             ],
         ]
