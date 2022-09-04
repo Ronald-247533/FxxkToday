@@ -30,6 +30,8 @@ users:
         # lat 纬度
         lat: 45.712265
         abnormalReason: ''
+        # 是否利用过往表单进行填写（1代表是，0代表否）       
+        getHistorySign: 1
         # 是否检查表单的标题（1代表检查，0代表不检查）
         checkTitle: 1
         forms:
