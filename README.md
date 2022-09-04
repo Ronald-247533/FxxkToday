@@ -1,8 +1,9 @@
 # FxxkToday_HLJU_Collection
 
-## 丧心病狂的金某教务平台 已经将所有云服务商的IP ban掉了，目前准备搬到路由器(360v6 Ram:1GB)上。~~开学后开始此项工程。~~[现已完成](https://github.com/Ronald-247533/Fxck-CPdaily-docker)
+## 2022.9.4 现更新为黑龙江大学疫情信息收集专版
 
-## 现更新为黑龙江大学疫情信息收集专版
+## 丧心病狂的金某教务平台 已经将所有云服务商的IP ban掉了，目前准备搬到路由器(360v6 Ram:1GB)上。~~开学后开始此项工程。~~
+## 2022.9.3 [现已完成](https://github.com/Ronald-247533/Fxck-CPdaily-docker)
 
 ### 该项目基于于[CarltonHere/auto-cpdaily](https://github.com/CarltonHere/auto-cpdaily)与 [IceTiki/ruoli-sign-optimization](https://github.com/IceTiki/ruoli-sign-optimization)，经过修改+精简后适配了HLJU今日校园自动打卡。感谢大佬贡献，欢迎给大佬点点STAR！
 
