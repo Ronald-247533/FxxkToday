@@ -33,7 +33,7 @@ class wiseLoginService:
         self.login_host = ''
         self.loginEntity = None
         self.login_type = ''
-        
+
     # 借助api获取学校的登陆url
     def getLoginUrl(self):
         clientUrl = "https://hlju.campusphere.net/iap/login?service=https%3A%2F%2Fhlju.campusphere.net%2Fwec-portal-mobile%2Fclient%2F"
