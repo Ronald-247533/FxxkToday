@@ -10,7 +10,6 @@ from datetime import datetime, timedelta, timezone
 import os
 from pyDes import des, CBC, PAD_PKCS5
 import re
-import uuid
 import hashlib
 import urllib.parse
 
