@@ -124,7 +124,7 @@ class Utils:
             "userId": env.userInfo['username'],
             "systemName": "android",
             "lat": env.userInfo['lat'],
-            "deviceId": str(uuid.uuid1())
+            "deviceId": env.userInfo['deviceId']
         }
         headers = {
             'User-Agent':

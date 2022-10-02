@@ -34,33 +34,8 @@ users:
         getHistorySign: 1
         # 是否检查表单的标题（1代表检查，0代表不检查）
         checkTitle: 1
+        deviceId : ""
         forms:
          - form:
              title: 在校状态
              value: 不在校
-         - form:
-             title: 不在校原因
-             value: 因病请假      
-         - form:
-             ignore: 1
-         - form:
-             title: 不在校学生体温状况
-             value: 正常     
-         - form:
-             title: 不在校学生隔离情况
-             value: 未隔离                     
-         - form:
-             ignore: 1
-         - form:
-             ignore: 1
-         - form:
-             title: 14天内是否有中高风险地区旅居史
-             value: 否
-         - form:
-             title: 14天内是否有中高风险地区所在区（县）旅居史
-             value: 否     
-         - form:
-             ignore: 1
-         - form:
-             title: 不在校学生安全承诺
-             value: 本人承诺遵守学校及属地防疫规定，并做到未经审批不私自返校，如有特殊情况主动向辅导员老师报备
